@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task_5_By_Nayan</title>
+
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+	<h1 class="h1"> Block Level Elements in HTML: </h1>
+
+	<h2> 1. address: </h2>
+	<p>
+			The <strong> address </strong> tag defines the contact information for the author/owner of a document or an article. The contact information can be an email address, URL, physical address, phone number, social media handle, etc.The text in the <strong>address</strong> element usually renders in italic, and browsers will always add a line break before and after the <strong>address</strong> element.
+		</p>
+		<h4><u>Examples of address element:</u> </h4>
+	<address> 
+	Moniruzzaman Nayan
+	<br>
+	<a href="mailto:moniruzzaman.nayan@gmail.com">Send me an email </a>
+	<br>
+	Dhaka, Bangladesh
+
+	</address>
+
+	<h2> 2. article: </h2>
+
+    <h4>Definition and Usage of "article element" </h4>
+	
+	<p>
+		The <strong>article</strong> tag specifies independent, self-contained content.An article should make sense on its own and it should be possible to distribute it independently from the rest of the site. Potential sources for the 
+		<strong>article</strong> element: <br> Forum post Blog post <br> News story
+	</p>
+
+	<h4> <u>Examples of article element:</u></h4>
+
+	<article>
+		
+		<h4> Full Stack Web Developer</h4>
+		<p> A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript, jQuery, Angular, or Vue)Program a server (like using PHP, ASP, Python, or Node) Program a database (like using SQL, SQLite, or MongoDB)
+		</p>
+
+		<h4>Popular Stacks</h4>
+		<p>
+			LAMP stack: JavaScript - Linux - Apache - MySQL - PHP
+			<br>
+			LEMP stack: JavaScript - Linux - Nginx - MySQL - PHP
+			<br>
+			MEAN stack: JavaScript - MongoDB - Express - AngularJS - Node.js
+			<br>
+			Django stack: JavaScript - Python - Django - MySQL
+			<br>
+			Ruby on Rails: JavaScript - Ruby - SQLite - Rails
+
+		</p>
+
+	</article>
+
+	<h2>3. Aside </h2>
+
+	<aside class="aside">
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quaerat impedit quos unde eius a officiis velit praesentium reiciendis, fuga sapiente! Veniam necessitatibus ea adipisci quasi praesentium amet, cupiditate, officiis earum?
+		</p>
+
+	</aside>
+
+	<h2>4. blockquote </h2>
+	<blockquote cite="https://www.lipsum.com/"> 
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </blockquote>
+
+
+
+	<h2>5. canvas</h2>
+
+    <canvas id="Canvas">
+    Your browser does not support the canvas tag.</canvas>
+
+  
+   <script>
+   var c = document.getElementById("Canvas");
+   var ctx = c.getContext("2d");
+   ctx.fillStyle = "blue";
+   ctx.fillRect(0, 0, 80, 100);
+   </script>
+
+
+	<h2>6. dd</h2>
+
+	<dl>
+		<dt> Web Development </dt>
+		<dd> This is dd tag . </dd>
+	</dl>
+
+	<div>
+		<h4> This is a heading in a div element </h4>
+		
+	</div>
+
+	<h2>7. dt</h2>
+
+	<dt>
+		This is dt tag
+	</dt>
+
+
+	<h2>8. fieldset</h2>
+
+	<fieldset> This is fieldset  </fieldset>
+
+	<h2>9. figure</h2>
+
+	<figure>
+    <img src="images/image (3).jpg" alt="nature photo" class="image">
+    <figcaption>Fig.1 Nature Image </figcaption>
+    </figure>
+
+
+	<h2>10. footer</h2>
+
+	<footer>
+    <p> The footer tag defines a footer for a document or section.<br>
+    </p>
+    </footer>
+
+	<h2>12. h1 to h6</h2>
+	<h2>13. header</h2>
+	<h2>14. hr</h2>
+
+	<h4> The <strong> hr </strong> tag defines a thematic break in an HTML page (e.g. a shift of topic).
+	<br>
+	example:
+    </h4>
+
+    <hr>
+
+	
+	<h2> 15. li</h2>
+
+	<h4>The li tag defines a list item.
+	<br>
+	example:
+    </h4>
+
+    <ol>
+    	<li>List 1</li>
+    	<li>List 2</li>
+
+    </ol>
+
+	
+	<h2>16. main</h2>
+
+	<h4>
+		The <strong>main</strong> tag specifies the main content of a document.
+	</h4>
+
+	<main>The content inside the <strong>main</strong> element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
+
+	</main>
+
+	<h2>17. nav</h2>
+
+	<h4> The <strong>nav</strong> tag defines a set of navigation links.
+    </h4>
+
+    <nav>
+    <a href="#">HTML</a> |
+    <a href="#">CSS</a> |
+    <a href="#">JavaScript</a> |
+    <a href="#">Python</a>
+    </nav>
+
+	<h2>18. noscript</h2>
+
+	<h4>The <strong>noscript</strong> tag defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support script.
+	</h4>
+
+	<h2>19. ol</h2>
+
+	<h4>
+		The <b>ol</b> tag defines an ordered list. An ordered list can be numerical or alphabetical.
+	<br>
+	example:
+	</h4>
+
+	<ol>
+		<li>red</li>
+		<li>green</li>
+		<li>blue</li>
+
+	</ol>
+
+	<h2>20. p</h2>
+	<h4>
+		The <strong>p</strong> tag defines a paragraph.
+        Browsers automatically add a single blank line before and after each <strong>p</strong> element.
+	</h4>
+	<h2>21. pre</h2>
+	<h4>The <strong>pre</strong> tag defines preformatted text.
+		<br>
+	example:
+	</h4>
+
+	<pre>    Text in a pre element is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks</pre>
+
+
+	<h2>22. section</h2>
+	<section>
+    <h4>
+    	The section tag defines a section in a document.
+    </h4>
+    <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.
+    </p>
+    </section>
+
+
+	<h2>23. table</h2>
+	<h4>The <strong>table</strong> tag defines an HTML table
+		<br>
+	example:
+    </h4>
+    <table class="table">
+    	<tr >
+    		<th> tr (table row) header </th>
+    		<th> This is another header in tr</th>
+    	</tr>
+
+    	<tr>
+    		<td>td 1</td>
+    		<td>td 2</td>
+    	</tr>
+    </table>
+
+
+	<h2>24. tfoot</h2>
+	<h4> 
+     The tfoot tag is used to group footer content in an HTML table.
+     <br>
+     example:
+	</h4>
+
+	<table>
+    <thead>
+     <tr>
+      <th>Month</th>
+      <th>Savings</th>
+     </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+    </tbody>
+
+    <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+    </tfoot>
+
+    </table>
+	<h2>25. ul</h2>
+
+	<h4>The ul tag defines an unordered (bulleted) list.
+
+	<br>
+	example: 
+    </h4>
+
+
+
+    <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    </ul>
+
+	<h2>26. video</h2>
+	<h4>
+		The video tag is used to embed video content in a document, such as a movie clip or other video streams.
+	<br>
+	example:
+	</h4>
+	<video width="320" height="240" controls>
+    <source src="#" type="video/mp4">
+    Video not found
+    </video>
+
+
+
+
+
+</body>
+</html>
